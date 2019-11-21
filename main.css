@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Alatsi|Roboto:500,500i&display=swap');
+
 /*
 	Reset Selector - don't remove this!
 */
@@ -13,6 +15,7 @@
 
 a:link, a:visited {
 	color: blue;
+	text-decoration: none;
 }
 
 a:focus, a:hover {
@@ -24,7 +27,7 @@ a:focus, a:hover {
 }
 
 body {
-
+font-size: 20px
 }
 
 code {
@@ -33,18 +36,22 @@ code {
 
 h1, h2, h3 {
 
+ text-align: center;
+ font-family: 'Alatsi', sans-serif;
+ line-height: 132.5%;
+
 }
 
 h1 {
-
+	font-size: 2.5em
 }
 
 h2 {
-
+font-size: 1.7em;
 }
 
 h3 {
-	
+	font-size: 1.2em;
 }
 
 header {
@@ -56,7 +63,8 @@ main {
 }
 
 p {
-
+line-height: 132.5%;
+font-family: 'Roboto', sans-serif;
 }
 
 #intro {
@@ -64,5 +72,6 @@ p {
 }
 
 #how-does-it-work, #influence, #joke {
-
+width: 33em;
+text-align: center
 }
